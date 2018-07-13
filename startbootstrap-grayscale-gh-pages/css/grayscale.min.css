@@ -37,6 +37,14 @@ body {
     background-color: transparent
 }
 
+.card {
+    margin: 10px;
+}
+
+.column {
+    margin-left: 200px;
+}
+
 @media (min-width:992px) {
     #mainNav {
         padding-top: 0;
@@ -102,9 +110,9 @@ body {
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: linear-gradient(to bottom, black 0, black 75%, #161616 100%), url(../background.jpg);
+/*    background: linear-gradient(to bottom, black 0, black 75%, #161616 100%), url();*/
 /*    background-color: #b9b5b5;*/
-    background-image: url(../../../../portfolio/portfolio/assets/img/background_blue.jpg);
+    background-image: url(../../../portfolio_dg/assets/img/background_blue.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -218,8 +226,12 @@ body {
     .projects-section .project-text hr {
         border-color: #64a19d;
         border-width: .25rem;
-        width: 30%
+        width: 30%;
     }
+}
+
+.display_object {
+    display: none;
 }
 
 .signup-section {
