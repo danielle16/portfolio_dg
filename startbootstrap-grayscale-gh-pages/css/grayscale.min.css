@@ -179,6 +179,7 @@ body {
 
 .btn-primary:hover {
     background-color: #eee;
+    color: rgb(92, 81, 81);
 }
 
 .btn-primary:focus {
@@ -187,12 +188,12 @@ body {
 }
 
 .btn-primary:active {
-    background-color: #eee!important
+    background-color: #eee!important;
 }
 
 .about-section {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%)
+    background:  #161616;
 }
 
 .about-section p {
@@ -326,4 +327,8 @@ a:hover {
 
 footer {
     padding: 5rem 0
+}
+
+.bio_shift {
+    margin-top: -100px;
 }
